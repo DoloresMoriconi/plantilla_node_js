@@ -1,0 +1,29 @@
+{
+  "name": "plantilla_node_js",
+  "version": "1.0.0",
+  "description": "plantilla para ser usada al momento de generar aplicaciones web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon --env-file=.env index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DoloresMoriconi/plantilla_node_js.git"
+  },
+  "keywords": [
+    "express",
+    "node"
+  ],
+  "author": "Dolores Moriconi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DoloresMoriconi/plantilla_node_js/issues"
+  },
+  "homepage": "https://github.com/DoloresMoriconi/plantilla_node_js#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "uuid": "^10.0.0"
+  }
+}
