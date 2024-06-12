@@ -23,6 +23,7 @@ router.get("/", async (req, res) => {
   }
 })
 
+//ruta para crear una nueva bicicleta
 router.post("/", async (req, res) => {
   const { marca, modelo, precio } = req.body
 
