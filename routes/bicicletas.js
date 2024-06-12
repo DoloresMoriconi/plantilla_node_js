@@ -4,6 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 const router = Router()
 
+//ruta para obtener las bicicletas
 router.get("/", async (req, res) => {
   try {
     const text = 'SELECT * FROM bicicletas'
