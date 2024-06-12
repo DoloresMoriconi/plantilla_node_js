@@ -2,7 +2,7 @@
 
 Esta es una plantilla para desarrollo web
 
-## como creear archivo .env para  coneexión
+## como creear archivo .env para  conexión
 
 ## como iniciar proyecto
 
